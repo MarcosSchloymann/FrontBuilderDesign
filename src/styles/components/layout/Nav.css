@@ -1,0 +1,19 @@
+.colapso{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-nav{
+    background-color: #809A7D;
+}
+
+.link{
+    font-size: 1.5rem;
+    color: white;
+    margin-inline: 5%;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}

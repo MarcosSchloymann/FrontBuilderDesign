@@ -1,0 +1,14 @@
+.ContenedorForm{
+    display: flex;
+    justify-content: center;
+}
+.formularioHome{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+.button-contacto{
+    background-color: #809A7D;
+    color: white;
+}
