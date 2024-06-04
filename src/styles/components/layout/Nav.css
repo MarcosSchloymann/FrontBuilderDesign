@@ -1,3 +1,17 @@
+.Nav-Bar{
+    background:rgb(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+@media screen and (min-width: 990px) {
+    .Nav-Bar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 3;
+    }
+  }
+
 .colapso{
     display: flex;
     justify-content: center;
@@ -15,8 +29,4 @@
 .navbar-nav{
     display: flex;
     justify-content: center;
-}
-
-.Nav-Bar{
-    background:rgb(255, 255, 255, 0.5);
 }

@@ -7,7 +7,7 @@ import './../../styles/components/layout/Nav.css';
 const NavBar = (props) => {
 
   return (
-    <Navbar bg="" expand="lg" fixed="top" className="justify-content-end Nav-Bar" data-bs-theme="light">
+    <Navbar bg="" expand="lg" className="justify-content-end Nav-Bar" data-bs-theme="light">
       <Container >
         <img src='./img/logo_mana.png' width='auto' height='100px' alt='' />
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
