@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Outlet, Link, Router } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import './../../styles/components/layout/Nav.css';
 
 const NavBar = (props) => {
@@ -9,7 +9,7 @@ const NavBar = (props) => {
   return (
     <Navbar bg="" expand="lg" fixed="top" className="justify-content-end Nav-Bar" data-bs-theme="light">
       <Container >
-        <img src='./img/logo_mana.png' width='auto' height='100px' />
+        <img src='./img/logo_mana.png' width='auto' height='100px' alt='' />
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav" className='colapso'>
           <Nav className='Nav-Menu'>

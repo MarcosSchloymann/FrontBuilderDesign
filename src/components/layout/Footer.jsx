@@ -10,14 +10,14 @@ function Footer() {
         <Row>
           <Col></Col>
           <Col>
-            <div className='footer'><img src='./img/logo_mana_1.png' height='80' width='auto' /></div>
+            <div className='footer'><img src='./img/logo_mana_1.png' height='80' width='auto' alt='Noziglia'/></div>
             <div className='iconos'>
-              <a href='' target="_blank" className='ahref ahrefa'><i class="fa-brands fa-square-facebook"></i></a>
-              <a href='' target="_blank" className='ahref ahrefa'><i class="fa-brands fa-whatsapp"></i></a>
-              <a href='' target="_blank" className='ahref ahrefa'><i class="fa-brands fa-instagram"></i></a>
+              <a href='https://www.instagram.com/lemasc23/' rel="noreferrer"  target="_blank" className='ahref ahrefa'><i class="fa-brands fa-square-facebook"></i></a>
+              <a href='https://www.instagram.com/lemasc23/' rel="noreferrer"  target="_blank" className='ahref ahrefa'><i class="fa-brands fa-whatsapp"></i></a>
+              <a href='https://www.instagram.com/lemasc23/' rel="noreferrer"  target="_blank" className='ahref ahrefa'><i class="fa-brands fa-instagram"></i></a>
             </div>
             <div className='fondo'>
-            ©2024 • <a href="" className='ahref'>Lema</a> • Todos los derechos reservados
+            ©2024 • <a href="https://www.instagram.com/lemasc23/" rel="noreferrer"  className='ahref'>Lema</a> • Todos los derechos reservados
           </div>
           </Col>
           <Col className='qr-box'>

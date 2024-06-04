@@ -1,23 +1,27 @@
-import { React, useState, useEffect } from "react";
-import axios from 'axios';
+import React from "react";
+// import { React, useState, useEffect } from "react";
+// import axios from 'axios';
 // import ProductosItem from "../components/ProductosItem";
 import { Col, Container, Row } from "react-bootstrap";
 import "./../styles/components/pages/ProductosPage.css";
 
 const ProductosPage = (props) => {
 
-    const [loading, setLoading] = useState(false);
-    const [productos, setProductos] = useState([]);
 
-    useEffect(() => {
-        const cargarProductos = async () => {
-            setLoading(true);
-            const response = await axios.get('http://localhost:3000/api/productos');
-            setProductos(response.data);
-            setLoading(false);
-        };
-        cargarProductos();
-    }, []);
+    // const [loading, setLoading] = useState(false);
+    // const [productos, setProductos] = useState([]);
+
+    // useEffect(() => {
+    //     const cargarProductos = async () => {
+    //         setLoading(true);
+    //         const response = await axios.get('http://localhost:3000/api/productos');
+    //         setProductos(response.data);
+    //         setLoading(false);
+    //     };
+    //     cargarProductos();
+    // }, []);
+
+    
     return (
         <Container>
             <div className="holder">

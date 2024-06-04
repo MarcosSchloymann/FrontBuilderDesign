@@ -33,13 +33,13 @@ function Grid3() {
             </Row>
             <Row>
                 <Col>
-                    <img src='./img/quienes.jpg' width='100%' height='auto' />
+                    <img src='./img/quienes.jpg' width='100%' height='auto' alt='quienes'/>
                 </Col>
                 <Col>
-                    <img src='./img/quienes1.jpg' width='100%' height='auto' />
+                    <img src='./img/quienes1.jpg' width='100%' height='auto' alt='quienes'/>
                 </Col>
                 <Col>
-                    <img src='./img/quienes2.jpg' width='100%' height='auto' />
+                    <img src='./img/quienes2.jpg' width='100%' height='auto' alt='quienes'/>
                 </Col>
             </Row>
             <Row>
@@ -78,19 +78,19 @@ function Grid3() {
             <Row>
                 <Col>
                     <div className='text-center'>
-                        <img src='./img/Herramienta.jpg' height='auto' width='300px' />
+                        <img src='./img/Herramienta.jpg' height='auto' width='300px' alt='quienes'/>
                         <h2>Tiendas</h2>
                     </div>
                 </Col>
                 <Col>
                     <div className='text-center'>
-                        <img src='./img/1063308-704073bd.png' height='auto' width='300px' />
+                        <img src='./img/1063308-704073bd.png' height='auto' width='300px' alt='quienes'/>
                         <h2>Pastelerías</h2>
                     </div>
                 </Col>
                 <Col>
                     <div className='text-center'>
-                        <img src='./img/3322490-312a2b27.png' height='auto' width='320px' />
+                        <img src='./img/3322490-312a2b27.png' height='auto' width='320px' alt='quienes'/>
                         <h2>Talleres</h2>
                     </div>
                 </Col>
