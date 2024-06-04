@@ -32,7 +32,7 @@ const ProductosPage = (props) => {
                 </Row>
                 <div>
                     <Row>
-                        <Col className="card-container">
+                        <Col sm={12} md={6} lg={4} className="card-container">
                             <div className="card-box">
                                 <img src="./background/panaderia.jpg" alt="" />
                                 <div className="info">
@@ -44,7 +44,7 @@ const ProductosPage = (props) => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container  col-sm-4">
                             <div className="card-box">
                             <img src="./background/panaderia.jpg" alt="" />
                             <div className="info">
@@ -56,7 +56,7 @@ const ProductosPage = (props) => {
                             </div>
                             </div>
                         </Col>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container  col-sm-4">
                             <div className="card-box">
                             <img src="./background/lema.jpg" alt="" />
                             <div className="info">
@@ -70,7 +70,7 @@ const ProductosPage = (props) => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container">
                             <div className="card-box">
                                 <img src="./background/panaderia.jpg" alt="" />
                                 <div className="info">
@@ -82,7 +82,7 @@ const ProductosPage = (props) => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container">
                             <div className="card-box">
                             <img src="./background/panaderia.jpg" alt="" />
                             <div className="info">
@@ -94,7 +94,7 @@ const ProductosPage = (props) => {
                             </div>
                             </div>
                         </Col>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container">
                             <div className="card-box">
                             <img src="./background/lema.jpg" alt="" />
                             <div className="info">
@@ -108,7 +108,7 @@ const ProductosPage = (props) => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container">
                             <div className="card-box">
                                 <img src="./background/panaderia.jpg" alt="" />
                                 <div className="info">
@@ -120,7 +120,7 @@ const ProductosPage = (props) => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container">
                             <div className="card-box">
                             <img src="./background/panaderia.jpg" alt="" />
                             <div className="info">
@@ -132,7 +132,7 @@ const ProductosPage = (props) => {
                             </div>
                             </div>
                         </Col>
-                        <Col className="card-container">
+                        <Col  sm={12} md={6} lg={4} className="card-container">
                             <div className="card-box">
                             <img src="./background/lema.jpg" alt="" />
                             <div className="info">
