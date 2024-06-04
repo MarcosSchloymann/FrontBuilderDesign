@@ -7,7 +7,7 @@ function Grid3() {
     return (
         <Container>
             <Row>
-                <Col>
+                <Col className='d-flex align-items-center'>
                     <div className='text-center'>
                         <h1 className='GridH1'>
                             Quiénes Somos
