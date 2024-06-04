@@ -37,17 +37,18 @@ const FormularioContacto = (props) => {
 
 
   return (
-    <div className='ContenedorForm' style={{padding:'90px'}}>
+    <div className='ContenedorForm' style={{ marginTop: '90px' }}>
       <div className='formularioHome'>
         <form
           action='/contacto'
-          method='post'          
+          method='post'
           onSubmit={handleSubmit}
           className='formulario'>
-            <h2>Contáctanos!</h2>
+          <h2 className='text-center'>Contáctanos!</h2>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Nombre </Form.Label>
+            <Form.Label></Form.Label>
             <Form.Control
+              className='text-center'
               type="text"
               placeholder="Nombre"
               name='nombre'
@@ -55,8 +56,9 @@ const FormularioContacto = (props) => {
               onChange={handleChange} />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Email </Form.Label>
+            <Form.Label></Form.Label>
             <Form.Control
+              className='text-center'
               type=""
               placeholder="Ingrese su correo electrónico"
               name='mail'
@@ -67,7 +69,7 @@ const FormularioContacto = (props) => {
             className="mb-3"
             controlId="exampleForm.ControlTextarea1"
           >
-            <Form.Label>Consulta</Form.Label>
+            <Form.Label className='text-center'>Consulta</Form.Label>
             <Form.Control
               as="textarea"
               rows={6}
@@ -75,7 +77,7 @@ const FormularioContacto = (props) => {
               value={formData.mensaje}
               onChange={handleChange} />
           </Form.Group>
-          <p className='acciones text-end'><input type='submit' value='Enviar' className='button-contacto'/></p>
+          <p className='acciones text-center'><input type='submit' value='Enviar' className='button-contacto' /></p>
         </form>
         {sending ? <p>Enviando...</p> : null}
         {msg ? <p>{msg}</p> : null}

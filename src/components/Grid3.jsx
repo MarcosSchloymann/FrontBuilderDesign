@@ -7,13 +7,14 @@ function Grid3() {
     return (
         <Container>
             <Row>
-                <Col><div className='text-center'>
-                    <h1 className='GridH1'>
-                        Quiénes Somos
-                    </h1>
-                    <hr color='black' width='300px' size='6'></hr>
+                <Col>
+                    <div className='text-center'>
+                        <h1 className='GridH1'>
+                            Quiénes Somos
+                        </h1>
+                        <hr color='black' width='300px' size='6'></hr>
 
-                </div>
+                    </div>
                 </Col>
                 <Col>
                     <p>
@@ -29,17 +30,18 @@ function Grid3() {
                         proyectos integrales, es por eso que contamos con personal idóneo que se encarga de trabajar
                         con varios materiales, entre ellos están los hierros y el acero inoxidable en la fabricación para
                         garantizar la durabilidad y resistencia en nuestros productos.
-                    </p></Col>
+                    </p>
+                </Col>
             </Row>
             <Row>
                 <Col>
-                    <img src='./img/quienes.jpg' width='100%' height='auto' alt='quienes'/>
+                    <img src='./img/quienes.jpg' width='100%' height='auto' alt='quienes' />
                 </Col>
                 <Col>
-                    <img src='./img/quienes1.jpg' width='100%' height='auto' alt='quienes'/>
+                    <img src='./img/quienes1.jpg' width='100%' height='auto' alt='quienes' />
                 </Col>
                 <Col>
-                    <img src='./img/quienes2.jpg' width='100%' height='auto' alt='quienes'/>
+                    <img src='./img/quienes2.jpg' width='100%' height='auto' alt='quienes' />
                 </Col>
             </Row>
             <Row>
@@ -68,7 +70,8 @@ function Grid3() {
                     </p>
                 </Col>
             </Row>
-            <Row><div className='text-center'>
+            <Row>
+                <div className='text-center'>
                 <h1 className='GridH1'>
                     Proyectos
                 </h1>
@@ -78,19 +81,19 @@ function Grid3() {
             <Row>
                 <Col>
                     <div className='text-center'>
-                        <img src='./img/Herramienta.jpg' height='auto' width='300px' alt='quienes'/>
+                        <img src='./img/Herramienta.jpg' height='auto' width='300px' alt='quienes' />
                         <h2>Tiendas</h2>
                     </div>
                 </Col>
                 <Col>
                     <div className='text-center'>
-                        <img src='./img/1063308-704073bd.png' height='auto' width='300px' alt='quienes'/>
+                        <img src='./img/1063308-704073bd.png' height='auto' width='300px' alt='quienes' />
                         <h2>Pastelerías</h2>
                     </div>
                 </Col>
                 <Col>
                     <div className='text-center'>
-                        <img src='./img/3322490-312a2b27.png' height='auto' width='320px' alt='quienes'/>
+                        <img src='./img/3322490-312a2b27.png' height='auto' width='320px' alt='quienes' />
                         <h2>Talleres</h2>
                     </div>
                 </Col>
