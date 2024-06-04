@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import axios from 'axios';
 // import ProductosItem from "../components/ProductosItem";
 import { Col, Container, Row } from "react-bootstrap";
+import "./../styles/components/pages/ProductosPage.css";
 
 const ProductosPage = (props) => {
 
@@ -25,33 +26,118 @@ const ProductosPage = (props) => {
                         <h1 className='nosotros GridH1' style={{ marginTop: "110px" }}>Nuestros Proyectos </h1>
                         <hr color='black' size='6'></hr></div></Col>
                 </Row>
-                <div className="card-container">
+                <div>
                     <Row>
-                        <Col>
+                        <Col className="card-container">
                             <div className="card-box">
+                                <img src="./background/panaderia.jpg" alt="" />
+                                <div className="info">
                                 <h4> Proyecto Maná</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
                                     illum reprehenderit esse voluptates sit quod quibusdam,
                                     quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
                                 </p>
+                                </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className="card-container">
                             <div className="card-box">
+                            <img src="./background/panaderia.jpg" alt="" />
+                            <div className="info">
                                 <h4> Proyecto Pastelería</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
                                     illum reprehenderit esse voluptates sit quod quibusdam,
                                     quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
                                 </p>
                             </div>
+                            </div>
                         </Col>
-                        <Col>
+                        <Col className="card-container">
                             <div className="card-box">
+                            <img src="./background/lema.jpg" alt="" />
+                            <div className="info">
                                 <h4>Proyecto Lema</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
                                     illum reprehenderit esse voluptates sit quod quibusdam,
                                     quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
                                 </p>
+                            </div>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="card-container">
+                            <div className="card-box">
+                                <img src="./background/panaderia.jpg" alt="" />
+                                <div className="info">
+                                <h4> Proyecto Maná</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
+                                    illum reprehenderit esse voluptates sit quod quibusdam,
+                                    quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
+                                </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col className="card-container">
+                            <div className="card-box">
+                            <img src="./background/panaderia.jpg" alt="" />
+                            <div className="info">
+                                <h4> Proyecto Pastelería</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
+                                    illum reprehenderit esse voluptates sit quod quibusdam,
+                                    quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
+                                </p>
+                            </div>
+                            </div>
+                        </Col>
+                        <Col className="card-container">
+                            <div className="card-box">
+                            <img src="./background/lema.jpg" alt="" />
+                            <div className="info">
+                                <h4>Proyecto Lema</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
+                                    illum reprehenderit esse voluptates sit quod quibusdam,
+                                    quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
+                                </p>
+                            </div>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="card-container">
+                            <div className="card-box">
+                                <img src="./background/panaderia.jpg" alt="" />
+                                <div className="info">
+                                <h4> Proyecto Maná</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
+                                    illum reprehenderit esse voluptates sit quod quibusdam,
+                                    quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
+                                </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col className="card-container">
+                            <div className="card-box">
+                            <img src="./background/panaderia.jpg" alt="" />
+                            <div className="info">
+                                <h4> Proyecto Pastelería</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
+                                    illum reprehenderit esse voluptates sit quod quibusdam,
+                                    quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
+                                </p>
+                            </div>
+                            </div>
+                        </Col>
+                        <Col className="card-container">
+                            <div className="card-box">
+                            <img src="./background/lema.jpg" alt="" />
+                            <div className="info">
+                                <h4>Proyecto Lema</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi aspernatur porro at sed,
+                                    illum reprehenderit esse voluptates sit quod quibusdam,
+                                    quae exercitationem iste mollitia praesentium autem dolor commodi doloribus?
+                                </p>
+                            </div>
                             </div>
                         </Col>
                     </Row>
