@@ -10,7 +10,9 @@ function HomPage() {
            <div className="separacion">
                 <Grid3 />
             </div>
+            <div style={{marginTop:'-90px'}}>
             <FormularioContacto />
+            </div>
         </>
     );
 }

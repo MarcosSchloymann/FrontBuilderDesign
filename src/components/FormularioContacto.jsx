@@ -37,8 +37,8 @@ const FormularioContacto = (props) => {
 
 
   return (
-    <div className='ContenedorForm'>
-      <div className='formularioHome' style={{ padding: "90px" }} >
+    <div className='ContenedorForm' style={{padding:'90px'}}>
+      <div className='formularioHome'>
         <form
           action='/contacto'
           method='post'          
@@ -75,7 +75,7 @@ const FormularioContacto = (props) => {
               value={formData.mensaje}
               onChange={handleChange} />
           </Form.Group>
-          <p className='acciones'><input type='submit' value='Enviar' className='button-contacto'/></p>
+          <p className='acciones text-end'><input type='submit' value='Enviar' className='button-contacto'/></p>
         </form>
         {sending ? <p>Enviando...</p> : null}
         {msg ? <p>{msg}</p> : null}
