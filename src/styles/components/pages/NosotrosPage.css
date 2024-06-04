@@ -1,10 +1,25 @@
+.nosotros-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nosotros{
     margin-top:100px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .texto-empresa{
-    padding: 30px;
+    padding: 10px;
+    margin-top: -5px;
+    width: 80%;
 }
 .textocheck{
     display: flex;

@@ -4,13 +4,13 @@ import "./../styles/components/pages/NosotrosPage.css";
 
 function NosotrosPage() {
     return (
-        <Container>
+        <Container className="nosotros-page">
             <Row>
-                <Col>
+                <Col className="nosotros-col">
                     <h1 className='nosotros GridH1'>
                         La Empresa
+                        <hr color='black' size='6'></hr>
                     </h1>
-                    <hr color='black' size='6'></hr>
 
                     <p className="texto-empresa">
                         Somos una Empresa conformada por profesionales, donde nuestro principal objetivo es concluir
