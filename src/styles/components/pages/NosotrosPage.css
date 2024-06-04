@@ -1,5 +1,6 @@
 .nosotros{
     margin-top:100px;
+    padding: 30px;
 }
 
 .texto-empresa{
@@ -17,3 +18,7 @@
     padding: 20px;
 }
 
+.nosotros-img{
+    height: auto;
+    width: 100%;
+}

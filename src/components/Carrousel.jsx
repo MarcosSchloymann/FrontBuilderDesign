@@ -13,7 +13,7 @@ function CarrouselHome() {
         />
         <Carousel.Caption>
         <div className='boxCarrousel arriba'>
-          <h1>Excelente atención</h1>
+          <h1>Diseños arquitectónicos</h1>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -26,7 +26,7 @@ function CarrouselHome() {
 
         <Carousel.Caption>
             <div className='boxCarrousel medio'>
-          <h1>Productos de Primera Calidad</h1>
+          <h1>Gestión de la Calidad de los Proyectos</h1>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -39,7 +39,7 @@ function CarrouselHome() {
 
         <Carousel.Caption>
         <div className='boxCarrousel abajo'>
-          <h1>Variedad de Productos</h1>
+          <h1>Maquinarias Avanzadas</h1>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -52,7 +52,7 @@ function CarrouselHome() {
 
         <Carousel.Caption>
         <div className='boxCarrousel medio'>
-          <h1>Productos de eleavoración Propia</h1>
+          <h1>Equipos multidisciplinarios</h1>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

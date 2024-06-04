@@ -3,17 +3,20 @@
     justify-content: center;
 }
 
-.nav-nav{
-    background-color: #809A7D;
-}
-
 .link{
     font-size: 1.5rem;
-    color: white;
     margin-inline: 5%;
+}
+
+.link:hover{
+    border: solid 0.01px white;
 }
 
 .navbar-nav{
     display: flex;
     justify-content: center;
+}
+
+.Nav-Bar{
+    background:rgb(255, 255, 255, 0.5);
 }

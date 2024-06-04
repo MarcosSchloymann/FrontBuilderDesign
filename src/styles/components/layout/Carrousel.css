@@ -1,6 +1,11 @@
 Carrousel{
     position: relative;
 }
+
+.carrousel-gral{
+    
+}
+
 .boxCarrousel{
     background:rgb(255, 255, 255, 0.5);
     /* background-color: rgb(255, 255, 255); */
@@ -17,7 +22,7 @@ Carrousel{
 h1{
     color: black;
     font-family: sans-serif;
-    border-left: 6px solid #809A7D;
+    border-left: 6px solid black;
     }
 
 span{
@@ -28,7 +33,7 @@ padding: 20px;}
 
 .arriba{
     position: absolute;
-    top: -550px;
+    top: -250px;
     left:600px;
 }
 

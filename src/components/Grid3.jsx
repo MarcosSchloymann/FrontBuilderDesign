@@ -11,22 +11,24 @@ function Grid3() {
                     <h1 className='GridH1'>
                         Quiénes Somos
                     </h1>
-                    <hr color='#809A7D' width='300px' size='6'></hr>
+                    <hr color='black' width='300px' size='6'></hr>
 
                 </div>
                 </Col>
                 <Col>
                     <p>
-                        Somos una empresa dedicada a la fabricación de panificados.
-                        Tenemos una amplia variedad de productos de elaboración propia,
-                        pan, facturas, bizcochos.
+                        Somos una Empresa conformada por profesionales, donde nuestro principal objetivo es concluir
+                        proyectos brindando excelencia y calidad.
+                        Todos nuestros trabajos son integramente supervisados y dirigidos en fabrica por nuestro
+                        personal altamente cualificado de hace mas de 30 años.
                     </p>
                 </Col>
                 <Col>
                     <p>
-                        Contamos con muchos años de experiencia en el rubro.
-                        Nuestra misión es mantener satisfechos a nuestros clientes brindándoles las exquisiteces preparadas por los maestros pasteleros de maná.
-                        Además, por nuestra calidad de atención y servicio nos siguen eligiendo como el primer día.
+                        Nuestro equipo multidisciplinario se caracteriza por desarrollar, fabricar y materializar
+                        proyectos integrales, es por eso que contamos con personal idóneo que se encarga de trabajar
+                        con varios materiales, entre ellos están los hierros y el acero inoxidable en la fabricación para
+                        garantizar la durabilidad y resistencia en nuestros productos.
                     </p></Col>
             </Row>
             <Row>
@@ -41,37 +43,34 @@ function Grid3() {
                 </Col>
             </Row>
             <Row>
-                <Col><div className='text-center'>
+                <Col className='d-flex align-items-center'><div className='text-center'>
                     <h1 className='GridH1'>
-                        Productos
+                        Servicios
                     </h1>
                     <hr color='#809A7D' width='300px' size='6'></hr>
                 </div>
                 </Col>
                 <Col>
-                    <h3 className='text-center'>Elaboración Artesanal</h3>
+                    <h3 className='text-center'>Calidad</h3>
                     <p>
-                        Combinamos la tradición con lo mejor de la modernidad para llegar a las mesas de todos los hogares con productos de panadería saludables, para todos los momentos del día.
-                        Productos al alcance de todas las familias. El buen pan es para todos.
-                        Hacer un buen pan artesanal como el que hacemos en Maná Panadería es más sencillo de lo que te imaginas.
-                        La complejidad está en lograr el producto que deseamos, con la variedad y volumen que ofrecemos.
+                        La calidad y la innovación son pilares fundamentales en cada etapa de nuestro
+                        proceso de producción. Trabajamos en estrecha colaboración con nuestros clientes para
+                        comprender sus necesidades y ofrecer soluciones personalizadas que superen sus expectativas.
                     </p>
                 </Col>
                 <Col>
-                    <h3 className='text-center'>Control de calidad</h3>
+                    <h3 className='text-center'>Acompañamiento</h3>
                     <p>
-                        Nuestro secreto está en el manejo maestro de la fermentación,
-                        el uso de diferentes prefermentos y el cuidado en el manejo de la masa con equipos
-                        diseñados para este tipo de procesos.
-                        Parte de la historia y de la magia de “Maná Panadería” es nuestra Masa Madre;
-                        La masa madre se debe cuidar meticulosamente para mantener sus características,
-                        de esta forma logramos año tras año la calidad de nuestros productos terminados.
+                        Somos su socio ideal para llevar a cabo proyectos de cualquier envergadura con
+                        profesionalismo, calidad y compromiso. Nos enorgullece ser parte de cada etapa, desde la
+                        concepción hasta la culminación de cada proyecto y estamos comprometidos a brindarle una
+                        experiencia de compra satisfactoria.
                     </p>
                 </Col>
             </Row>
             <Row><div className='text-center'>
                 <h1 className='GridH1'>
-                    Productos
+                    Proyectos
                 </h1>
                 <hr color='#809A7D' width='300px' size='6'></hr>
             </div>
@@ -80,19 +79,19 @@ function Grid3() {
                 <Col>
                     <div className='text-center'>
                         <img src='./img/Herramienta.jpg' height='auto' width='300px' />
-                        <h2>Panadería</h2>
+                        <h2>Tiendas</h2>
                     </div>
                 </Col>
                 <Col>
                     <div className='text-center'>
                         <img src='./img/1063308-704073bd.png' height='auto' width='300px' />
-                        <h2>Pastelería</h2>
+                        <h2>Pastelerías</h2>
                     </div>
                 </Col>
                 <Col>
                     <div className='text-center'>
                         <img src='./img/3322490-312a2b27.png' height='auto' width='320px' />
-                        <h2>Salados</h2>
+                        <h2>Talleres</h2>
                     </div>
                 </Col>
             </Row>

@@ -7,25 +7,21 @@ import './../../styles/components/layout/Nav.css';
 const NavBar = (props) => {
 
   return (
-
-    <Navbar expand="lg" 
-    fixed="top" 
-    className="nav-nav">
+    <Navbar bg="" expand="lg" fixed="top" className="justify-content-end Nav-Bar" data-bs-theme="light">
       <Container >
         <img src='./img/logo_mana.png' width='auto' height='100px' />
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className='colapso d-flex justify-content-center'>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Collapse id="basic-navbar-nav" className='colapso'>
           <Nav className='Nav-Menu'>
             <Nav.Link className="link" as={Link} to='/'>Home</Nav.Link>
             <Nav.Link className="link" as={Link} to="/nosotros">Nosotros</Nav.Link>
-            <Nav.Link className="link" as={Link} to="/productos">Productos</Nav.Link>
+            <Nav.Link className="link" as={Link} to="/productos">Proyectos</Nav.Link>
             <Nav.Link className="link" as={Link} to="/contacto">Contacto</Nav.Link>
           </Nav>
 
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
   );
 }
 

@@ -8,49 +8,21 @@ function Footer() {
     <div className='estilos'>
       <Container>
         <Row>
+          <Col></Col>
           <Col>
             <div className='footer'><img src='./img/logo_mana_1.png' height='80' width='auto' /></div>
-
-          </Col>
-          <Col>
-            <div className='footer'>
-              <img src='./img/2111774.png' height='50' width='auto' />
-              <p>33335555</p>
-            </div>
-
-          </Col>
-          <Col>
-            <div className='footer'>
-              <img src='./img/2111774.png' height='50' width='auto' />
-              <p>33335555</p>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
             <div className='iconos'>
-              <a href='' target="_blank"><img src='./img/icons8-facebook-f-50.png' style={{ padding: 20 }} /></a>
-              <a href='' target="_blank"><img src='./img/icons8-twitter-30.png' style={{ padding: 20 }} /></a>
-              <a href='' target="_blank"><img src='./img/icons8-instagram-30.png' style={{ padding: 20 }} /></a>
+              <a href='' target="_blank" className='ahref ahrefa'><i class="fa-brands fa-square-facebook"></i></a>
+              <a href='' target="_blank" className='ahref ahrefa'><i class="fa-brands fa-whatsapp"></i></a>
+              <a href='' target="_blank" className='ahref ahrefa'><i class="fa-brands fa-instagram"></i></a>
             </div>
-          </Col>
-          <Col>
-            <div className='footer'>
-              <img src='./img/2111774.png' height='50' width='auto' />
-              <p>33335555</p>
-            </div>
-          </Col>
-          <Col>
-            <div className='footer'>
-              <img src='./img/2111774.png' height='50' width='auto' />
-              <p>33335555</p>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <div className='fondo'>
-            ©2024 • Maná • Todos los derechos reservados
+            <div className='fondo'>
+            ©2024 • <a href="" className='ahref'>Lema</a> • Todos los derechos reservados
           </div>
+          </Col>
+          <Col className='qr-box'>
+          <img className="qr" src="./img/QR.jpg" alt="" />
+          </Col>
         </Row>
       </Container>
     </div>

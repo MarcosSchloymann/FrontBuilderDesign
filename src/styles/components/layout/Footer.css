@@ -10,11 +10,35 @@
 }
 
 .estilos{
-    background-color: #809A7D;
+    background-color: black;
     padding: 30px;
 }
 .fondo{
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.ahrefa{
+    padding: 2%;
+}
+
+.ahref:hover{
+    border-bottom:underline solid 1px orange;
+    color: orange;
+}
+
+.qr-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr{
+    width: 30%;
 }

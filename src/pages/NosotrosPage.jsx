@@ -11,96 +11,41 @@ function NosotrosPage() {
                         La Empresa
                     </h1>
                     <hr color='black' size='6'></hr>
-                </Col>
-                <Col>
-                </Col>
-                <Col>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <p className="texto-empresa">
-                        Nuestra empresa nació como Pistones Oddi y hoy queremos compartir nuestro nuevo enfoque en la compañía.
-                        La calidad es fundamental y es un factor estratégico en nuestros valores,
-                        para continuar sirviendo al mercado Nacional y competir a nivel internacional.
-                    </p>
-                </Col>
-                <Col>
-                    <p className="texto-empresa">
-                        Ofrecemos servicios de fundición para casos particulares, somos especialistas en la fabricación de piezas de todo tipo de aluminio según plano o muestra.
-                        Diseñamos modelos complejos con impresión en 3D y volcamos el proyecto en fundición de aluminio.
-                    </p>
-                </Col>
-                <Col>
-                    <img className="texto-empresa" src="./img/laEmpresa.jpg" width='100%' height='auto' />
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <p className="texto-empresa">
-                        También contamos con servicio de rectificado de motores.
-                        Realizamos la reparación de una línea extensa de motores diesel y nafteros,
-                        en lo que se destacan las siguientes actividades:
-                    </p>
-                </Col>
-                <Col>
-                    <Row>
-                        <Col>
-                            <div className="textocheck">
-                                <img src="./img/1828640.png" height='30' />
-                                <p style={{ fontZise: 30, }}>
-                                    Rectificación de cigüenales
-                                </p>
-                            </div>
-                        </Col>
-                        <Col>
-                            <div className="textocheck">
-                                <img src="./img/1828640.png" height='30' />
-                                <p style={{ fontZise: 30, }}>
-                                    Rectificado de camisas
-                                </p>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <div className="textocheck">
-                                <img src="./img/1828640.png" height='30' />
-                                <p style={{ fontZise: 30, }}>
-                                    Reparación y mecanizado de tapas de cilindro
-                                </p>
-                            </div>
-                        </Col>
-                        <Col>
-                            <div className="textocheck">
-                                <img src="./img/1828640.png" height='30' />
-                                <p style={{ fontZise: 30, }}>
-                                    Semi-armados de motores
-                                </p>
-                            </div>
 
-                        </Col>
-                    </Row>
+                    <p className="texto-empresa">
+                        Somos una Empresa conformada por profesionales, donde nuestro principal objetivo es concluir
+                        proyectos brindando excelencia y calidad.
+                        Todos nuestros trabajos son integramente supervisados y dirigidos en fabrica por nuestro
+                        personal altamente cualificado de hace mas de 30 años.
+                        Nuestro equipo multidisciplinario se caracteriza por desarrollar, fabricar y materializar
+                        proyectos integrales, es por eso que contamos con personal idóneo que se encarga de trabajar
+                        con varios materiales, entre ellos están los hierros y el acero inoxidable en la fabricación para
+                        garantizar la durabilidad y resistencia en nuestros productos. También trabajamos con equipos
+                        de refrigeración, que se adaptan a los estándares de calidad e higiene y contienen aberturas,
+                        vidrios TVH/DVH. En el sector de carpintería utilizamos MDF para el armado y ensamblado del
+                        mobiliario y para darle una mejor terminación enviamos a nuestra cabina de pintura que se
+                        encuentra preparada para una mejor terminación en las piezas.
+                        La fábrica cuenta con una amplia variedad de máquinas de avanzada tecnología como
+                        cortadora láser, plegadoras, fresadoras CNC, escuadradoras, pegadoras de canto y prensas para
+                        puertas, de esta manera podemos llevar a cabo proyectos de cualquier escala con eficiencia y
+                        precisión.
+                        La calidad y la innovación son pilares fundamentales en cada etapa de nuestro
+                        proceso de producción. Trabajamos en estrecha colaboración con nuestros clientes para
+                        comprender sus necesidades y ofrecer soluciones personalizadas que superen sus expectativas.
+                        Somos su socio ideal para llevar a cabo proyectos de cualquier envergadura con
+                        profesionalismo, calidad y compromiso. Nos enorgullece ser parte de cada etapa, desde la
+                        concepción hasta la culminación de cada proyecto y estamos comprometidos a brindarle una
+                        experiencia de compra satisfactoria.
+                        ¡Nos gustaría ser parte de tu proyecto!
+                    </p>
+
+                    <img className="nosotros-img" src="./img/nosotrosImg.jpg" alt="" />
+
                 </Col>
+
             </Row>
-            <div className="fondo-azul">
-                <Row>
-                    <Col>
-                        <h1 className="fondo-azul">Política de calidad</h1>
-                        <hr color='white' width='300px' size='6'></hr>
-                        <p>
-                            En OTTO Pistones trabajamos para cumplir las metas propuestas orientados por el valor que,
-                            para nosotros, tiene honrar nuestra palabra. Así elaboramos de manera personalizada, la mejor solución para cada cliente,
-                            adaptando nuestro servicio a cada necesidad particular.</p>
-                    </Col>
-                    <Col>
-                        <img src="./img/laEmpresa.jpg" width='100%' height='100%' />
-                    </Col>
-                </Row>
-            </div>
-            <hr></hr>
         </Container>
-        
+
     )
 }
 

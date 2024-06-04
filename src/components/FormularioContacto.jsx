@@ -38,7 +38,7 @@ const FormularioContacto = (props) => {
 
   return (
     <div className='ContenedorForm'>
-      <div className='formularioHome' style={{ padding: "130px" }} >
+      <div className='formularioHome' style={{ padding: "90px" }} >
         <form
           action='/contacto'
           method='post'          
